@@ -4,7 +4,7 @@ from openpyxl import Workbook, load_workbook
 from  tempfile import NamedTemporaryFile
 
 
-@st.cache
+# @st.cache
 def file_check(excel1, excel2):
     """takes in two excels and compares the values in the first column. If there are matches it will bold the corresponding value in the first excel"""
     for i in range(2,ws.max_row):
