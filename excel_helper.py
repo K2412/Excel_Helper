@@ -38,4 +38,4 @@ if st.button('Run The Check'):
     st.download_button(label="Download your data here" , data=excel, file_name="new.xlsx")
     st.balloons()
 else:
-    st.info('click start')
+    st.info("click 'Run The Check'")
