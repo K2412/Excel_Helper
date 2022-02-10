@@ -1,0 +1,4 @@
+
+backports.tempfile @ file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work
+openpyxl==3.0.1
+streamlit==1.5.0
